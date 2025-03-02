@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.sp1kkelpoes.plentifulcreatures.PlentifulCreatures;
+import net.sp1kkelpoes.plentifulcreatures.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup FOOD_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -15,6 +16,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.food"))
                     .icon(() ->  new ItemStack(ModItems.BANANA)).entries((displayContext, entries) -> {
                         entries.add(ModItems.BANANA); // This is also the order of displaying in the tab
+
+
+                        entries.add(ModBlocks.BANANA_BLOCK); // It drops like a couple of bananas
 
 
                     }).build());

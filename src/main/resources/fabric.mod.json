@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "plentifulcreatures",
-	"version": "${version}",
+	"version": "0.1-1.20.1",
 	"name": "Plentiful Creatures",
 	"description": "This mod just adds fun new mobs and quality of life changes!",
 	"authors": [
