@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "plentifulcreatures:banana_block"
+    }
+  ],
+  "result": {
+    "item": "plentifulcreatures:banana",
+    "count": 9
+  }
+}
