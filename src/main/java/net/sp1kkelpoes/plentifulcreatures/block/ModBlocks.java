@@ -15,7 +15,6 @@ public class ModBlocks {
     public static final Block BANANA_BLOCK = registerBlock("banana_block",
             new Block(FabricBlockSettings.copyOf(Blocks.MELON)));
 
-
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(PlentifulCreatures.MOD_ID, name), block);
