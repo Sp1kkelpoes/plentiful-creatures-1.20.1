@@ -13,7 +13,7 @@ import net.sp1kkelpoes.plentifulcreatures.PlentifulCreatures;
 
 public class ModBlocks {
     public static final Block BANANA_BLOCK = registerBlock("banana_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.MELON)));
+            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
